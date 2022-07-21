@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "googleapis";
+}
+
+.contener{
+    display: flex;
+    justify-content: center;
+}
+
+.hw_1{
+    background-color: #101932;
+    padding: 50px 146px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.block_left{
+    background-color: #384D70;
+    border-radius: 20px;
+    width: 496px;
+    height: 560px;
+    margin-top: 50px;
+    margin-right: 60px;
+    padding-left:40px ;
+}
+
+.blur_block1, .blur_block2, .blur_block3{
+    margin: 30px 0 30px 0px;
+    height: 120px;
+}
+
+.h2_right{
+    color: white;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 42px;
+    margin-bottom: 10px;
+}
+
+.span1{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.3;
+}
+
+/*---------------------- block_center------------------------------*/
+
+.block_center{
+    background-color: #384D70;
+    border-radius: 20px;
+    width: 496px;
+    height: 620px;
+    margin-right: 60px;
+    margin-top: 50px;
+    padding-left:40px ;
+}
+
+.block_right{
+    background-color: #384D70;
+    border-radius: 20px;
+    width: 496px;
+    height: 460px;
+    padding-left:40px ;
+    margin-top: 50px;
+}
+
+.p1{
+    display: block;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* -------------------------------hw2---------------------------------------------- */
+
+.contener2{
+    width: 70%;
+    margin: 0 auto;
+    
+}
+
+.h1{
+    margin: 70px 0 22px 0;
+    color: black;
+}
+
+input{
+    width: 321px;
+    height: 42px;
+    border: 2px solid #007FFF;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 8px;
+    margin-bottom: 42px;
+    padding: 4px;
+}
+
+button{
+    width: 155px;
+    height: 42px;
+    background: #0071E3;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    transition: 300ms ease;
+}
+
+button:hover{
+    background-color: #0080ff;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+hr{
+    width: 1008px;
+    margin: 0 auto 18px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 90px;
+    grid-gap: 20px;
+    width: 1008px;
+    margin: 0 auto 50px;
+}
+
+.grid_block{
+    position: relative;
+    border: 1px solid #007FFF;
+    border-radius: 10px;
+    height: 90px;
+    background-color: #F0F0F0;
+    padding: 21px 25px 20px 25px;
+}
+
+.span4{
+    display: block;
+    margin-top: 10px;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.55);
+}
+
+.img4{
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    height: 13.33px;
+}
+
+/* ==================== style of phone======================== */
+
+.block_of_phone{
+    width: 250px;
+    margin: 50px auto;
+    position: relative;
+    border-radius: 10px;
+    padding-top: 10px;
+    transition: 300ms ease;
+}
+
+.block_of_phone:hover{
+    box-shadow:0px 0px 20px 10px rgb(182, 181, 181);
+}
+
+.img_of_phone{
+    width: 240px;
+}
+
+.span2{
+    display: block;
+    font-size: 17px;
+    margin: 20px 0 20px 20px;
+    font-weight: 300;
+}
+
+h3{
+    margin-left: 20px;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
+.red_block{
+    width: 190px;
+    background-color: red;
+    color: white;
+    padding: 0 5px;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.text_of_red_block{
+    font-weight: 700;
+}
+
+.p2{
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.8;
+    margin: 0 0 20px 20px;
+}
+
+.button_of_phone{
+    background-color: white;
+    color: black;
+    opacity: 0.8;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 0 0 30px 20px;
+}
+
+.button_of_phone:hover{
+    background-color: white;
+    box-shadow: 0px 0 10px 5px rgb(164, 164, 164);
+}
